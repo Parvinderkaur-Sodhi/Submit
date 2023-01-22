@@ -1,0 +1,162 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+}
+
+.pro-button {
+  border-radius: 20px;
+  background-color: rgb(61, 153, 240);
+  position: absolute;
+  top:14%;
+  right: 450px;
+  font-size: 24px;
+}
+
+.sub-button{
+  position: absolute;
+  border: none;
+  top:12%;
+  right: 350px;
+  outline: none;
+  cursor: pointer;
+  margin: 10px 10px;
+  background-color: white;
+  font-size: 40px;
+  border-radius: 80%;
+}
+
+.container{
+  background-image:url(https://as1.ftcdn.net/v2/jpg/01/62/61/86/500_F_162618653_qwCFEOdNF0gUsLinHnY6EY5zVNKf2nri.jpg);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper{
+  /* background-image:url(https://thumbs.dreamstime.com/b/white-checklist-flat-icon-logo-dark-background-133269887.jpg);
+  background-image: cross-fade(opacity= 0.4); */
+  background-color: black;
+  min-width: 1050px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #000;
+  margin-bottom: 30px 0px;
+}
+
+.task-input, 
+.inputs{
+  outline: none;
+  width: 200px;
+  padding: 15px;
+  margin-top: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: black;
+  background-color: gainsboro;
+  opacity: 0.8;
+  border: 1px solid #c89666;
+  border-radius: 10px;
+}
+
+.des-input{
+  width: 400px;
+}
+
+.time-input{
+  width: 90px;
+}
+
+.upload{
+  background-color: #c89666;
+  width: 40px;
+  padding: 8px 8px;
+  margin-right: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  border-color: black;
+  cursor: pointer;
+}
+
+.button-add{
+  background-color: #c89666;
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  border-color: black;
+  cursor: pointer;
+}
+
+.list-item{
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+}
+
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.button-complete {
+  color: lightgreen;
+  margin-right: 10px;
+}
+
+.button-edit {
+  color: #ebe4a5;
+  margin-right: 10px;
+}
+
+.button-delete {
+  color: darkred;
+}
+
+.complete{
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: orange;
+}
+
+.list {
+  width: 220px;
+  background-color: transparent;
+  border: none;
+  color: #ccc;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
